@@ -1,0 +1,21 @@
+[theme]
+base = "light"
+# 인주(도장 인주) 색
+primaryColor = "#B23A2B"
+# 한지 느낌의 따뜻한 베이지
+backgroundColor = "#F6EFDF"
+secondaryBackgroundColor = "#EDE2C8"
+# 먹색
+textColor = "#2A2622"
+borderColor = "#D9CBA8"
+font = "Noto Serif KR:https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+baseRadius = "0.6rem"
+
+[server]
+# 서버 업로드 한도 (MB). 실제 기준(10MB)은 app.py에서 한국어 안내와 함께 검사한다 (F-1).
+# 이 값을 10으로 낮추면 Streamlit의 영어 오류가 먼저 표시된다.
+maxUploadSize = 50
+
+[client]
+# 배포 화면에서 Deploy 버튼 등 개발자 메뉴 숨김
+toolbarMode = "viewer"
